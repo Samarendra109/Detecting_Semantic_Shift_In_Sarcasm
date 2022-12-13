@@ -1,6 +1,8 @@
 # Detecting_Semantic_Shift_In_Sarcasm
 Final project for CSC2611 (Computational Models of Semantic Shift)
 
+Below, the functionality of each file is explained. Generally each file only has 1 important function and does one important task.
+
 - **tweet_scrapping.py** file is used to scrap tweets and save that in a pickle file.
 - **generate_words_to_search.py** identifies high positive sentiment words and high negative sentiment words. A subset of these words will be used in training depending upon frequency of these words in the sarcastic and non-sarcastic corpus.
 - **util.py** reads the pickle file and generates the cooccurrence matrix. It also provides pretrained glove embeddings for words, word2index dict and other utility functions.
