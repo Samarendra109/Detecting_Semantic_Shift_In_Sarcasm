@@ -1,6 +1,8 @@
 # Detecting_Semantic_Shift_In_Sarcasm
 Final project for CSC2611 (Computational Models of Semantic Shift)
 
+For the details on the research and the experiments please check the pdf **"Paper with Project Report.pdf"**
+
 Below, the functionality of each file is explained. Generally each file only has 1 important function and does one important task.
 
 - **tweet_scrapping.py** file is used to scrap tweets and save that in a pickle file.
